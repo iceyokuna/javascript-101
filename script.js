@@ -51,3 +51,11 @@ console.log(arr1+arr2);
 
 //class
 //like function but classy
+//support inheritance as Python using extend
+class Car{
+    constructor(kind){
+        this.kind = kind
+    }
+}
+var car  = new Car();
+
